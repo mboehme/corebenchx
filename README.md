@@ -28,6 +28,9 @@ Alternatively, you can build manually (takes several hours!)
 git clone https://github.com/mboehme/corebench.git
 cd corebench
 docker build -t mboehme/corebench .
+git clone https://github.com/mboehme/corebenchx.git
+cd corebenchx
+docker build -t mboehme/corebenchx .
 ```
 
 ## Usage
