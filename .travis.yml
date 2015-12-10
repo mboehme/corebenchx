@@ -10,6 +10,4 @@ before_install:
 
 script: 
 - ./run.sh corebenchx "cd /root && mkdir tmp && cd tmp && export GIT_SSL_NO_VERIFY=true && git clone https://github.com/mboehme/corebench.git && cd .. && cp tmp/corebench/corebench.tar.gz . && rm -rf corebench && tar -zxvf corebench.tar.gz >/dev/null"
-- ./run.sh corebenchx "cd /root/corebench && ./executeTests.sh test-reg core.0-9 /root/corerepo"
-- ./run.sh corebenchx "cd /root/corebench && ./executeTests.sh test-reg core.10-19 /root/corerepo"
-- ./run.sh corebenchx "cd /root/corebench && ./executeTests.sh test-reg core.20-29 /root/corerepo"
+- ./run.sh corebenchx "cd /root/corebench && ./executeTests.sh test-reg core /root/corerepo"
