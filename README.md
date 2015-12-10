@@ -1,6 +1,7 @@
-# CoREBench Dockerfile
+# CoREBenchx Dockerfile ![alt text](https://travis-ci.org/mboehme/corebenchx.svg?branch=master "Test Results corebenchx")
 Actual Regression Errors for Software Debugging and Repair Research.  
 More information at http://www.comp.nus.edu.sg/~release/corebench/.
+
 
 The dockerfile is 
 * based on the official Ubuntu 14.04 docker image,
@@ -25,12 +26,12 @@ docker pull mboehme/corebenchx                     #Installs container w/ 22 err
 ```
 Alternatively, you can build manually (takes several hours!)
 ```
-#Build container for find, grep, and make
+# Build container for errors in find, grep, and make
 git clone https://github.com/mboehme/corebench.git
 cd corebench
 docker build -t mboehme/corebench .
 
-#Build container for coreutils
+# Build container for errors in coreutils
 git clone https://github.com/mboehme/corebenchx.git
 cd corebenchx
 docker build -t mboehme/corebenchx .
