@@ -1,4 +1,4 @@
-# CoREBenchx Dockerfile ![alt text](https://travis-ci.org/mboehme/corebenchx.svg?branch=master "Test Results corebenchx")
+# CoREBenchx Dockerfile [![alt text](https://travis-ci.org/mboehme/corebenchx.svg?branch=master "Test Results corebenchx")](https://travis-ci.org/mboehme/corebenchx)
 Actual Regression Errors for Software Debugging and Repair Research.  
 More information at http://www.comp.nus.edu.sg/~release/corebench/.
 
